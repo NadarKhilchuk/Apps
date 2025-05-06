@@ -1,146 +1,445 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <title>The world of apps</title>
-  <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="cdn-icons-png" href="">
-</head>
-<body>
-<header class="header-pl">
-    <div class="header-pl-container container">
+  <head>
+    <meta charset="UTF-8" />
+    <title>The world of apps</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" type="image/png" href="./images/icon-web.png" />
+  </head>
+  <body>
+    <header class="header-pl">
+      <div class="header-pl-container container">
         <div class="header-pl-logo">
-            <a href="./index.html" class="header-pl-logotyp">THE<br>WORLD<br>OF APPS</a>
+          <a href="./index.html" class="header-pl-logotyp"
+            >THE<br />WORLD<br />OF APPS</a
+          >
         </div>
         <nav class="header-pl-navigation">
-            <div class="header-pl-item"><a href="" class="header-pl-nav">Fiszki</a></div>
-            <div class="header-pl-item"><a href="" class="header-pl-nav">Zadanie nr 1</a></div>
-            <div class="header-pl-item"><a href="" class="header-pl-nav">Zadanie nr 2</a></div>
-            <div class="header-pl-item"><a href="" class="header-pl-nav">Zadanie nr 3</a></div>
+          <div class="header-pl-item">
+            <a href="#fiszki" class="header-pl-nav">Fiszki</a>
+          </div>
+          <div class="header-pl-item">
+            <a href="#zad1" class="header-pl-nav">Zadanie nr 1</a>
+          </div>
+          <div class="header-pl-item">
+            <a href="#zad2" class="header-pl-nav">Zadanie nr 2</a>
+          </div>
+          <div class="header-pl-item">
+            <a href="#task-3" class="header-pl-nav">Zadanie nr 3</a>
+          </div>
         </nav>
         <ul class="header-pl-list">
-            <li class="header-pl-items"><a href="" class="header-pl-language pl-pl">PL</a></li>
-            <li class="header-pl-items"><a href="" class="header-pl-language ua-pl">UA</a></li>
+          <li class="header-pl-items">
+            <a href="./index.html" class="header-pl-language pl-pl">PL</a>
+          </li>
+          <li class="header-pl-items">
+            <a href="./ua.html" class="header-pl-language ua-pl">UA</a>
+          </li>
         </ul>
-    </div>
-</header>
-<main class="page-pl pl-home">
-    <section class="overlord-pl">
+      </div>
+    </header>
+    <main class="page-pl pl-home">
+      <!-- Карточки -->
+      <section id="fiszki" class="overlord-pl">
         <div class="overlord-pl-container container">
-<div class="overlord-pl-block">
-                <div class="overlord-pl-chip"><div class="overlord-pl-chip-inner"><div class="overlord-pl-chip-front">A false feeling of privacy</div><div class="overlord-pl-chip-back">Falszywe poczucie prywatności</div></div></div>
-                <div class="overlord-pl-chip"><div class="overlord-pl-chip-inner"><div class="overlord-pl-chip-front">Be ashamed of</div><div class="overlord-pl-chip-back">Wstydzić się</div></div></div>
-                <div class="overlord-pl-chip"><div class="overlord-pl-chip-inner"><div class="overlord-pl-chip-front">Keeping in touch</div><div class="overlord-pl-chip-back">Utrzymywanie kontaktu</div></div></div>
-                <div class="overlord-pl-chip"><div class="overlord-pl-chip-inner"><div class="overlord-pl-chip-front">To be on the safe side</div><div class="overlord-pl-chip-back">na Wszelki wypadek</div></div></div>
-                <div class="overlord-pl-chip"><div class="overlord-pl-chip-inner"><div class="overlord-pl-chip-front">Keep it to yourself</div><div class="overlord-pl-chip-back">Zachowaj to dla siebie</div></div></div>
+          <div class="overlord-pl-block">
+            <div class="overlord-pl-chip">
+              <div class="overlord-pl-chip-inner">
+                <div class="overlord-pl-chip-front">
+                  A false feeling of privacy
+                </div>
+                <div class="overlord-pl-chip-back">
+                  Falszywe poczucie prywatności
+                </div>
+              </div>
             </div>
+            <div class="overlord-pl-chip">
+              <div class="overlord-pl-chip-inner">
+                <div class="overlord-pl-chip-front">Be ashamed of</div>
+                <div class="overlord-pl-chip-back">Wstydzić się</div>
+              </div>
             </div>
-    </section>
-    <section class="hero-pl">
+            <div class="overlord-pl-chip">
+              <div class="overlord-pl-chip-inner">
+                <div class="overlord-pl-chip-front">Keeping in touch</div>
+                <div class="overlord-pl-chip-back">Utrzymywanie kontaktu</div>
+              </div>
+            </div>
+            <div class="overlord-pl-chip">
+              <div class="overlord-pl-chip-inner">
+                <div class="overlord-pl-chip-front">To be on the safe side</div>
+                <div class="overlord-pl-chip-back">na Wszelki wypadek</div>
+              </div>
+            </div>
+            <div class="overlord-pl-chip">
+              <div class="overlord-pl-chip-inner">
+                <div class="overlord-pl-chip-front">Keep it to yourself</div>
+                <div class="overlord-pl-chip-back">Zachowaj to dla siebie</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="zad1" class="hero-pl">
         <div class="hero-pl-container container">
+          <div
+            class="hero-pl-block"
+            data-answer="Z jakich aplikacji korzystasz najczęściej? Dlaczego? Używam TikToka dla rozrywki i YouTube'a do oglądania filmów i nauki."
+          >
+            <div class="hero-pl-header">
+              <p>
+                <strong>1.</strong> Which applications do you use most often?
+                What for?
+              </p>
+              <p class="hero-pl-translation">
+                I use TikTok for entertainment and YouTube for watching videos
+                and learning.
+              </p>
+            </div>
+            <div class="hero-pl-arrow">↓</div>
+            <div class="hero-pl-input">
+              <input type="hero-pl-text" placeholder="Enter your answer" />
 
-        <div class="hero-pl-block" data-answer="I use TikTok for entertainment and YouTube for watching videos and learning.">
-          <div class="hero-pl-header">
-            <p><strong>1.</strong> Which applications do you use most often? What for?</p>
-            <p class="hero-pl-translation">Z jakich aplikacji korzystasz najczęściej? Dlaczego?</p>
-          </div>
-          <div class="hero-pl-arrow">↓</div>
-          <div class="hero-pl-input">
-            <input type="hero-pl-text" placeholder="Enter your answer">
-    
-            <div class="hero-pl-answer-box">
-              <p><strong>Odpowiedź:</strong><span class="hero-pl-en-answer"></span></p>
-              <p class="hero-pl-translation"><span class="hero-pl-ru-answer"></span></p>
+              <div class="hero-pl-answer-box">
+                <p>
+                  <strong>Tłumaczenie:</strong
+                  ><span class="hero-pl-en-answer"></span>
+                </p>
+                <p class="hero-pl-translation">
+                  <span class="hero-pl-ru-answer"></span>
+                </p>
+              </div>
+            </div>
+            <div class="hero-pl-button">
+              <button class="hero-pl-toggle-answer show">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/159/159604.png"
+                  width="24"
+                />
+              </button>
+              <button class="hero-pl-toggle-answer hide" style="display: none">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/1828/1828665.png"
+                  width="24"
+                />
+              </button>
             </div>
           </div>
-          <div class="hero-pl-button">
-            <button class="hero-pl-toggle-answer show">
-              <img src="https://cdn-icons-png.flaticon.com/512/159/159604.png" width="24">
-            </button>
-            <button class="hero-pl-toggle-answer hide" style="display: none;">
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828665.png" width="24">
-            </button>
-          </div>
-        </div>
+          <div
+            class="hero-pl-block"
+            data-answer="Które aplikacje uważasz za najmniej przydatne? Dlaczego? Aplikacje fitness, ponieważ nie śledzę ćwiczeń ani diety."
+          >
+            <div class="hero-pl-header">
+              <p>
+                <strong>2.</strong> Which do you find the least useful? Why?
+              </p>
+              <p class="hero-pl-translation">
+                Fitness apps, because I don't track exercise or diet.
+              </p>
+            </div>
+            <div class="hero-pl-arrow">↓</div>
+            <div class="hero-pl-input">
+              <input type="hero-pl-text" placeholder="Enter your answer" />
 
-        <div class="hero-pl-block" data-answer="Fitness apps, because I don't track exercise or diet.">
-          <div class="hero-pl-header">
-            <p><strong>2.</strong> Which do you find the least useful? Why?</p>
-            <p class="hero-pl-translation">Które aplikacje uważasz za najmniej przydatne? Dlaczego?</p>
-          </div>
-          <div class="hero-pl-arrow">↓</div>
-          <div class="hero-pl-input">
-            <input type="hero-pl-text" placeholder="Enter your answer">
-    
-            <div class="hero-pl-answer-box">
-              <p><strong>Odpowiedź:</strong><span class="hero-pl-en-answer"></span></p>
-              <p class="hero-pl-translation"><span class="hero-pl-ru-answer"></span></p>
+              <div class="hero-pl-answer-box">
+                <p>
+                  <strong>Tłumaczenie:</strong
+                  ><span class="hero-pl-en-answer"></span>
+                </p>
+                <p class="hero-pl-translation">
+                  <span class="hero-pl-ru-answer"></span>
+                </p>
+              </div>
+            </div>
+            <div class="hero-pl-button">
+              <button class="hero-pl-toggle-answer show">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/159/159604.png"
+                  width="24"
+                />
+              </button>
+              <button class="hero-pl-toggle-answer hide" style="display: none">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/1828/1828665.png"
+                  width="24"
+                />
+              </button>
             </div>
           </div>
-          <div class="hero-pl-button">
-            <button class="hero-pl-toggle-answer show">
-              <img src="https://cdn-icons-png.flaticon.com/512/159/159604.png" width="24">
-            </button>
-            <button class="hero-pl-toggle-answer hide" style="display: none;">
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828665.png" width="24">
-            </button>
-          </div>
-        </div>
-        <div class="hero-pl-block" data-answer="TikTok and YouTube, because they offer a lot of entertainment and useful content.">
-          <div class="hero-pl-header">
-            <p><strong>3.</strong> Which are most popular among your peers now? Why?</p>
-            <p class="hero-pl-translation">Które aplikacje są teraz najpopularniejsze wśród twoich rówieśników? Dlaczego?</p>
-          </div>
-          <div class="hero-pl-arrow">↓</div>
-          <div class="hero-pl-input">
-            <input type="hero-pl-text" placeholder="Enter your answer">
-    
-            <div class="hero-pl-answer-box">
+          <div
+            class="hero-pl-block"
+            data-answer="Które aplikacje są teraz najpopularniejsze wśród twoich rówieśników? Dlaczego? TikTok i YouTube, ponieważ oferują dużo rozrywki i przydatnych treści."
+          >
+            <div class="hero-pl-header">
+              <p>
+                <strong>3.</strong> Which are most popular among your peers now?
+                Why?
+              </p>
+              <p class="hero-pl-translation">
+                TikTok and YouTube, because they offer a lot of entertainment
+                and useful content.
+              </p>
+            </div>
+            <div class="hero-pl-arrow">↓</div>
+            <div class="hero-pl-input">
+              <input type="hero-pl-text" placeholder="Enter your answer" />
 
-    <p><strong>Odpowiedź:</strong><span class="hero-pl-en-answer"></span></p>
-              <p class="hero-pl-translation"><span class="hero-pl-ru-answer"></span></p>
+              <div class="hero-pl-answer-box">
+                <p>
+                  <strong>Tłumaczenie:</strong
+                  ><span class="hero-pl-en-answer"></span>
+                </p>
+                <p class="hero-pl-translation">
+                  <span class="hero-pl-ru-answer"></span>
+                </p>
+              </div>
+            </div>
+            <div class="hero-pl-button">
+              <button class="hero-pl-toggle-answer show">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/159/159604.png"
+                  width="24"
+                />
+              </button>
+              <button class="hero-pl-toggle-answer hide" style="display: none">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/1828/1828665.png"
+                  width="24"
+                />
+              </button>
             </div>
           </div>
-          <div class="hero-pl-button">
-            <button class="hero-pl-toggle-answer show">
-              <img src="https://cdn-icons-png.flaticon.com/512/159/159604.png" width="24">
-            </button>
-            <button class="hero-pl-toggle-answer hide" style="display: none;">
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828665.png" width="24">
-            </button>
-          </div>
-        </div>
-        <div class="hero-pl-block" data-answer="No, some apps can collect personal data and be hacked.">
-          <div class="hero-pl-header">
-            <p><strong>4.</strong> Do you think all apps are safe to use? Why (not)?</p>
-            <p class="hero-pl-translation">Czy uważasz, że wszystkie aplikacje są bezpieczne? Dlaczego (nie)?</p>
-          </div>
-          <div class="hero-pl-arrow">↓</div>
-          <div class="hero-pl-input">
-            <input type="hero-pl-text" placeholder="Enter your answer">
-    
-            <div class="hero-pl-answer-box">
-              <p><strong>Odpowiedź:</strong><span class="hero-pl-en-answer"></span></p>
-              <p class="hero-pl-translation"><span class="hero-pl-ru-answer"></span></p>
+          <div
+            class="hero-pl-block"
+            data-answer="Czy uważasz, że wszystkie aplikacje są bezpieczne? Dlaczego (nie)? Nie, niektóre aplikacje mogą zbierać dane osobowe i mogą zostać zhakowane."
+          >
+            <div class="hero-pl-header">
+              <p>
+                <strong>4.</strong> Do you think all apps are safe to use? Why
+                (not)?
+              </p>
+              <p class="hero-pl-translation">
+                No, some apps can collect personal data and be hacked.
+              </p>
+            </div>
+            <div class="hero-pl-arrow">↓</div>
+            <div class="hero-pl-input">
+              <input type="hero-pl-text" placeholder="Enter your answer" />
+
+              <div class="hero-pl-answer-box">
+                <p>
+                  <strong>Tłumaczenie:</strong
+                  ><span class="hero-pl-en-answer"></span>
+                </p>
+                <p class="hero-pl-translation">
+                  <span class="hero-pl-ru-answer"></span>
+                </p>
+              </div>
+            </div>
+            <div class="hero-pl-button">
+              <button class="hero-pl-toggle-answer show">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/159/159604.png"
+                  width="24"
+                />
+              </button>
+              <button class="hero-pl-toggle-answer hide" style="display: none">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/1828/1828665.png"
+                  width="24"
+                />
+              </button>
             </div>
           </div>
-          <div class="hero-pl-button">
-            <button class="hero-pl-toggle-answer show">
-              <img src="https://cdn-icons-png.flaticon.com/512/159/159604.png" width="24">
-            </button>
-            <button class="hero-pl-toggle-answer hide" style="display: none;">
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828665.png" width="24">
-            </button>
-          </div>
         </div>
-    </div>
+      </section>
+      <section id="zad2" class="dragon-pl">
+        <div class="dragon-pl-container container">
+          <h1 class="dragon-pl-title">Zadanie nr 2</h1>
+
+          <p class="dragon-pl-paragrafh">
+            I bet you like image-based communication, don’t you? Well, it’s
+            great fun to post photos online with a silly comment, especially
+            when the images 
+            <span class="dragon-pl-weight">(1)</span>
+            <p class="dragon-pl-hints">di</p>
+            <span class="dragon-pl-tooltip">
+                <input class="dragon-pl-tolltip-input" type="text" id="q1" placeholder="..." />
+                <span class="dragon-pl-tooltiptext">disappear</span>
+            </span>
+            <p class="dragon-pl-hints">ar</p>
+            automatically after some time, like in
+            some modern applications. Unfortunately, using such messengers can
+            make teenagers quite careless. Why? Because the fact that the photos
+            don’t last forever may give the sender
+            <mark class="dragon-pl-mark">a false feeling of privacy.</mark>
+            It doesn’t take a computer geek to figure out that nothing is really
+            removed from the server. There is a trace of everything you send <br><span class="dragon-pl-weight">(2)</span>
+
+            <p class="dragon-pl-hints">o</p>
+            <span class="dragon-pl-tooltip">
+                <input class="dragon-pl-tolltip-input" type="text" id="q1" placeholder="..." />
+                <span class="dragon-pl-tooltiptext">online</span>
+            </span>
+            <p class="dragon-pl-hints">ne.</p>
+            So to avoid problems and potentially dangerous situations,
+            there are a number of things to keep in mind.
+          </p>
+          Take and send only such photos you will never <mark class="dragon-pl-mark">be ashamed of.</mark>
+          Remember that the person that receives your photo can make a 
+        
+          <span class="dragon-pl-weight">(3)</span>
+          <p class="dragon-pl-hints">scr</p>
+          <span class="dragon-pl-tooltip">
+              <input class="dragon-pl-tolltip-input" type="text" id="q1" placeholder="..." />
+              <span class="dragon-pl-tooltiptext">screenshot</span>
+          </span>
+          <p class="dragon-pl-hints">ot</p>
+
+          of what you send and later use it against you.
+          Send photos only to those users you’ve met personally. The Internet is not a good tool for making
+          <span class="dragon-pl-weight">(4)</span>
+          <p class="dragon-pl-hints">f</p>
+          <span class="dragon-pl-tooltip">
+              <input class="dragon-pl-tolltip-input" type="text" id="q1" placeholder="..." />
+              <span class="dragon-pl-tooltiptext">friends</span>
+          </span>
+          <p class="dragon-pl-hints">s</p>,
+           but for <mark class="dragon-pl-mark">keeping in touch</mark> with those you know well already.
+          Don’t send 
+          <span class="dragon-pl-weight">(5)</span>
+          <p class="dragon-pl-hints">pr</p>
+          <span class="dragon-pl-tooltip">
+              <input class="dragon-pl-tolltip-input" type="text" id="q1" placeholder="..." />
+              <span class="dragon-pl-tooltiptext">private</span>
+          </span>
+          <p class="dragon-pl-hints">te</p>
+          information – you never know who your friend will be with when they look at your photo.
+          Manage your privacy
+          <span class="dragon-pl-weight">(6)</span>
+          <p class="dragon-pl-hints">se</p>
+          <span class="dragon-pl-tooltip">
+              <input class="dragon-pl-tolltip-input" type="text" id="q1" placeholder="..." />
+              <span class="dragon-pl-tooltiptext">settings</span>
+          </span>
+          <p class="dragon-pl-hints">gs</p>
+          wisely so that only you receive images from the people you know. Just <mark class="dragon-pl-mark">to be on the safe side</mark>...
+          Protect your 
+          <br><span class="dragon-pl-weight">(7)</span>
+          <p class="dragon-pl-hints">pa</p>
+          <span class="dragon-pl-tooltip">
+              <input class="dragon-pl-tolltip-input" type="text" id="q1" placeholder="..." />
+              <span class="dragon-pl-tooltiptext">password</span>
+          </span>
+          <p class="dragon-pl-hints">d</p>
+          – don’t share it with anyone, even your best friend.
+          If you <mark class="dragon-pl-mark">keep it to yourself</mark>, no one will ever embarrass you by publishing the photos you don’t want anyone to see.
+        </div>
+       
     </section>
-
-
-
+    <section class="omega-pl" id="task-3">
+        <h2 class="omega-pl-title">Zadanie nr 3</h2>
+        <p class="omega-pl-titles">Przeczytaj ponownie tekst z ćwiczenia 2 i odpowiedz na pytania. Następnie, w parach, przedyskutuj, jak można przetłumaczyć wyróżnione wyrażenia na twój język.</p>
+        <ol class="omega-pl-listENG listeng">
+          <li class="omega-pl-item">1.What makes teens feel safe using the app described?</li>
+          <li class="omega-pl-item">2.Why can using such apps lead to unwanted situations?</li>
+          <li class="omega-pl-item">3.What are image-based apps useful for?</li>
+          <li class="omega-pl-item">4.How can someone embarrass the user of such an app?</li>
+        </ol>
+<div class="omega-pl-buttons-block">
+        <button  class="omega-pl-button" onclick="toggleTranslation()">Show/Hide Translation</button>
+    </div>
+        <div class="omega-pl-translation" id="translation">
+          <h3  class="omega-pl-h3">Polskie tłumaczenie:</h3>
+          <ol class="omega-pl-listPL listpl">
+            <li class="omega-pl-items">1.Co sprawia, że nastolatki czują się bezpiecznie, korzystając z opisywanej aplikacji?</li>
+            <li class="omega-pl-items">2.Dlaczego korzystanie z takich aplikacji może prowadzić do niepożądanych sytuacji?</li>
+            <li class="omega-pl-items">3.Do czego przydają się aplikacje oparte na obrazach?</li>
+            <li class="omega-pl-items">4.Jak ktoś może wprawić użytkownika takiej aplikacji w zakłopotanie?</li>
+          </ol>
+        </div>
+    </section>
+    <section class="sponsors-pl">
+        <div class="sponsors-pl-conainer container">
+           <div class="sponsors-pl-wrapper">
+             <h2 class="sponsors-pl-title">
+                Nasi partnerzy
+             </h2>
+           </div>
+           <ul class="sponsors-pl-list">
+              <li class="sponsors-pl-item item-partners">
+              <div class="sponsors-pl-image">
+              <img
+              class="sponsors-pl-photo"
+              src="./images/sigma.png"
+              alt="Nadar Khilchuk"
+              />
+              </div>
+              <h3 class="sponsors-pl-title">
+             Nadar Khilchuk
+              </h3>
+              <p class="sponsors-pl-text">
+                Programista, twórca strony internetowej.
+            </p>
+            <div class="sponsors-pl-block-social">
+            <a href="https://www.tiktok.com/@xlega4" class="sponsors-pl-link" target="_blank">
+              <img src="./images/logo-tt.png" alt="Logo-TikTok" class="sponsors-pl-logotyp logotyp-tt">
+            </a>
+            </div>
+              </li>
+              <li class="sponsors-pl-item item-partners">
+                 <div class="sponsors-pl-image">
+                 <img
+                 class="sponsors-pl-photo"
+                 src="./images/bodia999.jpeg"
+                 alt="Bohdan Fokin"
+                 />
+                 </div>
+                 <h3 class="sponsors-pl-title">
+                    Bohdan Fokin
+                 </h3>
+                 <p class="sponsors-pl-text">
+                    Tester, operator, pomysłodawca.
+                </p>
+                <div class="sponsors-pl-block-social">
+                <a href="https://t.me/Crypto_Panda7" class="sponsors-pl-link" target="_blank">
+                    <img src="./images/logo-tg.png" alt="Telegram" class="sponsors-pl-logotyp">
+                 </a>
+                </div>
+                 </li>
+                 <li class="sponsors-pl-item item-partners">
+                    <div class="sponsors-pl-image">
+                       <img
+                       class="sponsors-pl-photo"
+                       src="./images/xd.jpg"
+                       alt="Dmitrii Sereda"
+                       />
+                    </div>
+                    <h3 class="sponsors-pl-title">
+                        Dmitrii Sereda
+                    </h3>
+                    <p class="sponsors-pl-text">
+                        Sponsor, youtuber, pomysłodawca, Boss KFC.
+                    </p>
+                    <div class="sponsors-pl-block-social">
+                    <a href="https://www.youtube.com/@XDIMA228" class="sponsors-pl-link" target="_blank">
+                         <img src="./images/logo-yt.webp" alt="Logo-Youtube" class="sponsors-pl-logotyp">
+                      </a>
+                    </div>
+                    </li>
+              </ul>
+        </div>
+     </section>
     </main>
+    <footer class="footer-pl">
+        <div class="footer-pl-container container">
+            <p>&copy; 2025 Burza. Wszelkie prawa zastrzeżone.</p>
+        </div>
+     </footer>
     <script src="./js/index.js"></script>
-    <script src="./js/2zad.js"></script>
-</body>
+    <script src="./js/1zad.js"></script>
+    <script src="./js/3zad.js"></script>
+    <script src="./js/3.3zad.js"></script>
+  </body>
 </html>
